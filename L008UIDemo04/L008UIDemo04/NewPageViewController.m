@@ -1,23 +1,33 @@
 //
-//  CustomNavigationController.m
+//  NewPageViewController.m
 //  L008UIDemo04
 //
-//  Created by Student04 on 16/5/10.
+//  Created by Student04 on 16/5/16.
 //  Copyright © 2016年 doudou. All rights reserved.
 //
 
-#import "CustomNavigationController.h"
+#import "NewPageViewController.h"
 
-@interface CustomNavigationController ()
+@interface NewPageViewController ()
 
 @end
 
-@implementation CustomNavigationController
+@implementation NewPageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.title = self.name;
+    
+    
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 150, 100)];
+    label.center = CGPointMake(self.view.center.x, self.view.center.y);
+    label.text = self.name;
+    label.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning {

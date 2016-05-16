@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor yellowColor];
+    self.title = @"搜索";
 }
 
 - (void)didReceiveMemoryWarning {
