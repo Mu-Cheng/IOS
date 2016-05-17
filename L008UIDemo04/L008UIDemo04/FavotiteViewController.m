@@ -24,6 +24,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor purpleColor];
+    
     self.title = @"收藏";
 //    隐藏底部栏
     self.hidesBottomBarWhenPushed = YES;
