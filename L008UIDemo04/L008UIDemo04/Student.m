@@ -10,4 +10,8 @@
 
 @implementation Student
 
+- (instancetype) :(NSString *)nickName resentMsg:(NSString *)recentMsg avaterImage:(NSString *)avaterImage time:(NSString *)time{
+    
+}
+
 @end

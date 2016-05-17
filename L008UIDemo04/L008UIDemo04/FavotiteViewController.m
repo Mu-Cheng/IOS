@@ -2,7 +2,7 @@
 //  FavotiteViewController.m
 //  L008UIDemo04
 //
-//  Created by Student04 on 16/5/10.
+//  Created by Student04 on 16/5/17.
 //  Copyright © 2016年 doudou. All rights reserved.
 //
 
@@ -24,9 +24,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor purpleColor];
-    
     self.title = @"收藏";
-//    隐藏底部栏
+    //    隐藏底部栏
     self.hidesBottomBarWhenPushed = YES;
     
     [self loadDataFromWeb];
@@ -83,12 +82,4 @@
 }
 
 @end
-
-
-
-
-
-
-
-
 

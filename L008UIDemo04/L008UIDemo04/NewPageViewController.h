@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Student.h"
 
 @interface NewPageViewController : UIViewController
 @property (nonatomic ,strong) NSString *name;
+
 
 
 @end

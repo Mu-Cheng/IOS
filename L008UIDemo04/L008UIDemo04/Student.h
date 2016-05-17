@@ -10,8 +10,14 @@
 
 @interface Student : NSObject
 
-@property (nonatomic ,strong)NSString *name;
-@property (nonatomic ,strong)NSString *age;
+@property (nonatomic ,strong)NSString *avater;
+@property (nonatomic ,strong)NSString *nickName;
+@property (nonatomic ,strong)NSString *time;
+@property (nonatomic ,strong)NSString *recentMsg;
+//@property (weak, nonatomic) IBOutlet UIImageView *avaterImageView;
+//@property (weak, nonatomic) IBOutlet UILabel *nickNameLabel;
+//@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+//@property (weak, nonatomic) IBOutlet UILabel *recentMsgLabel;
 
 
 @end

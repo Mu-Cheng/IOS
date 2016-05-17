@@ -13,10 +13,12 @@
 		F15F969D1CE1FA4900CE25DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15F969B1CE1FA4900CE25DA /* LaunchScreen.storyboard */; };
 		F15F96A61CE1FB9200CE25DA /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15F96A51CE1FB9200CE25DA /* RootTabBarController.m */; settings = {ASSET_TAGS = (); }; };
 		F15F96A91CE1FBD700CE25DA /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15F96A81CE1FBD700CE25DA /* CustomNavigationController.m */; settings = {ASSET_TAGS = (); }; };
-		F15F96AC1CE1FC0A00CE25DA /* FavotiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15F96AB1CE1FC0A00CE25DA /* FavotiteViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F15F96AF1CE1FC2000CE25DA /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15F96AE1CE1FC2000CE25DA /* HistoryViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F15F96B21CE1FC3200CE25DA /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15F96B11CE1FC3200CE25DA /* SearchViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F15F96B51CE1FC4000CE25DA /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15F96B41CE1FC4000CE25DA /* MoreViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F1631B931CEB109C00D3BEEE /* FavotiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1631B921CEB109C00D3BEEE /* FavotiteViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F1631B991CEB117A00D3BEEE /* StudentinfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1631B971CEB117A00D3BEEE /* StudentinfoCell.m */; settings = {ASSET_TAGS = (); }; };
+		F1631B9A1CEB117A00D3BEEE /* StudentinfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1631B981CEB117A00D3BEEE /* StudentinfoCell.xib */; settings = {ASSET_TAGS = (); }; };
 		F16BA4C11CE9CA0C002B8D4A /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = F16BA4C01CE9CA0C002B8D4A /* Student.m */; settings = {ASSET_TAGS = (); }; };
 		F16BA4C41CE9CBA9002B8D4A /* NewPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16BA4C31CE9CBA9002B8D4A /* NewPageViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -33,14 +35,17 @@
 		F15F96A51CE1FB9200CE25DA /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
 		F15F96A71CE1FBD700CE25DA /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
 		F15F96A81CE1FBD700CE25DA /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
-		F15F96AA1CE1FC0A00CE25DA /* FavotiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavotiteViewController.h; sourceTree = "<group>"; };
-		F15F96AB1CE1FC0A00CE25DA /* FavotiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavotiteViewController.m; sourceTree = "<group>"; };
 		F15F96AD1CE1FC2000CE25DA /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
 		F15F96AE1CE1FC2000CE25DA /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
 		F15F96B01CE1FC3200CE25DA /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		F15F96B11CE1FC3200CE25DA /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		F15F96B31CE1FC4000CE25DA /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
 		F15F96B41CE1FC4000CE25DA /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		F1631B911CEB109C00D3BEEE /* FavotiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavotiteViewController.h; sourceTree = "<group>"; };
+		F1631B921CEB109C00D3BEEE /* FavotiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavotiteViewController.m; sourceTree = "<group>"; };
+		F1631B961CEB117A00D3BEEE /* StudentinfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentinfoCell.h; sourceTree = "<group>"; };
+		F1631B971CEB117A00D3BEEE /* StudentinfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentinfoCell.m; sourceTree = "<group>"; };
+		F1631B981CEB117A00D3BEEE /* StudentinfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentinfoCell.xib; sourceTree = "<group>"; };
 		F16BA4BF1CE9CA0C002B8D4A /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		F16BA4C01CE9CA0C002B8D4A /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		F16BA4C21CE9CBA9002B8D4A /* NewPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPageViewController.h; sourceTree = "<group>"; };
@@ -77,24 +82,18 @@
 		F15F968C1CE1FA4900CE25DA /* L008UIDemo04 */ = {
 			isa = PBXGroup;
 			children = (
+				F1631B941CEB10CC00D3BEEE /* Favotite */,
+				F1631B8B1CEB0F0600D3BEEE /* History */,
+				F1631B8E1CEB0F4100D3BEEE /* Search */,
+				F1631B8F1CEB0F4B00D3BEEE /* More */,
 				F15F96901CE1FA4900CE25DA /* AppDelegate.h */,
 				F15F96911CE1FA4900CE25DA /* AppDelegate.m */,
 				F15F96A41CE1FB9200CE25DA /* RootTabBarController.h */,
 				F15F96A51CE1FB9200CE25DA /* RootTabBarController.m */,
 				F15F96A71CE1FBD700CE25DA /* CustomNavigationController.h */,
 				F15F96A81CE1FBD700CE25DA /* CustomNavigationController.m */,
-				F16BA4BF1CE9CA0C002B8D4A /* Student.h */,
-				F16BA4C01CE9CA0C002B8D4A /* Student.m */,
-				F15F96AA1CE1FC0A00CE25DA /* FavotiteViewController.h */,
-				F15F96AB1CE1FC0A00CE25DA /* FavotiteViewController.m */,
 				F16BA4C21CE9CBA9002B8D4A /* NewPageViewController.h */,
 				F16BA4C31CE9CBA9002B8D4A /* NewPageViewController.m */,
-				F15F96AD1CE1FC2000CE25DA /* HistoryViewController.h */,
-				F15F96AE1CE1FC2000CE25DA /* HistoryViewController.m */,
-				F15F96B01CE1FC3200CE25DA /* SearchViewController.h */,
-				F15F96B11CE1FC3200CE25DA /* SearchViewController.m */,
-				F15F96B31CE1FC4000CE25DA /* MoreViewController.h */,
-				F15F96B41CE1FC4000CE25DA /* MoreViewController.m */,
 				F15F96991CE1FA4900CE25DA /* Assets.xcassets */,
 				F15F969B1CE1FA4900CE25DA /* LaunchScreen.storyboard */,
 				F15F969E1CE1FA4900CE25DA /* Info.plist */,
@@ -109,6 +108,71 @@
 				F15F968E1CE1FA4900CE25DA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1631B8B1CEB0F0600D3BEEE /* History */ = {
+			isa = PBXGroup;
+			children = (
+				F15F96AE1CE1FC2000CE25DA /* HistoryViewController.m */,
+				F15F96AD1CE1FC2000CE25DA /* HistoryViewController.h */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		F1631B8E1CEB0F4100D3BEEE /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F15F96B11CE1FC3200CE25DA /* SearchViewController.m */,
+				F15F96B01CE1FC3200CE25DA /* SearchViewController.h */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		F1631B8F1CEB0F4B00D3BEEE /* More */ = {
+			isa = PBXGroup;
+			children = (
+				F15F96B31CE1FC4000CE25DA /* MoreViewController.h */,
+				F15F96B41CE1FC4000CE25DA /* MoreViewController.m */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		F1631B941CEB10CC00D3BEEE /* Favotite */ = {
+			isa = PBXGroup;
+			children = (
+				F1631B9C1CEB11AE00D3BEEE /* Model */,
+				F1631B951CEB112200D3BEEE /* VIew */,
+				F1631B9B1CEB118900D3BEEE /* Controller */,
+			);
+			name = Favotite;
+			sourceTree = "<group>";
+		};
+		F1631B951CEB112200D3BEEE /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				F1631B961CEB117A00D3BEEE /* StudentinfoCell.h */,
+				F1631B971CEB117A00D3BEEE /* StudentinfoCell.m */,
+				F1631B981CEB117A00D3BEEE /* StudentinfoCell.xib */,
+			);
+			name = VIew;
+			sourceTree = "<group>";
+		};
+		F1631B9B1CEB118900D3BEEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1631B911CEB109C00D3BEEE /* FavotiteViewController.h */,
+				F1631B921CEB109C00D3BEEE /* FavotiteViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F1631B9C1CEB11AE00D3BEEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F16BA4BF1CE9CA0C002B8D4A /* Student.h */,
+				F16BA4C01CE9CA0C002B8D4A /* Student.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F15F969D1CE1FA4900CE25DA /* LaunchScreen.storyboard in Resources */,
+				F1631B9A1CEB117A00D3BEEE /* StudentinfoCell.xib in Resources */,
 				F15F969A1CE1FA4900CE25DA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,9 +249,10 @@
 				F15F96A61CE1FB9200CE25DA /* RootTabBarController.m in Sources */,
 				F15F96B51CE1FC4000CE25DA /* MoreViewController.m in Sources */,
 				F15F96921CE1FA4900CE25DA /* AppDelegate.m in Sources */,
+				F1631B931CEB109C00D3BEEE /* FavotiteViewController.m in Sources */,
+				F1631B991CEB117A00D3BEEE /* StudentinfoCell.m in Sources */,
 				F15F96A91CE1FBD700CE25DA /* CustomNavigationController.m in Sources */,
 				F15F968F1CE1FA4900CE25DA /* main.m in Sources */,
-				F15F96AC1CE1FC0A00CE25DA /* FavotiteViewController.m in Sources */,
 				F15F96AF1CE1FC2000CE25DA /* HistoryViewController.m in Sources */,
 				F15F96B21CE1FC3200CE25DA /* SearchViewController.m in Sources */,
 				F16BA4C11CE9CA0C002B8D4A /* Student.m in Sources */,
