@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>lx7.xcscheme</key>
+		<key>ceshi.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F16BA4F01CE9DA6A002B8D4A</key>
+		<key>F16BA4CD1CE9D7AC002B8D4A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F16BA4F01CE9DA6A002B8D4A"
-               BuildableName = "lx7.app"
-               BlueprintName = "lx7"
-               ReferencedContainer = "container:lx7.xcodeproj">
+               BlueprintIdentifier = "F16BA4CD1CE9D7AC002B8D4A"
+               BuildableName = "ceshi.app"
+               BlueprintName = "ceshi"
+               ReferencedContainer = "container:ceshi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F16BA4F01CE9DA6A002B8D4A"
-            BuildableName = "lx7.app"
-            BlueprintName = "lx7"
-            ReferencedContainer = "container:lx7.xcodeproj">
+            BlueprintIdentifier = "F16BA4CD1CE9D7AC002B8D4A"
+            BuildableName = "ceshi.app"
+            BlueprintName = "ceshi"
+            ReferencedContainer = "container:ceshi.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F16BA4F01CE9DA6A002B8D4A"
-            BuildableName = "lx7.app"
-            BlueprintName = "lx7"
-            ReferencedContainer = "container:lx7.xcodeproj">
+            BlueprintIdentifier = "F16BA4CD1CE9D7AC002B8D4A"
+            BuildableName = "ceshi.app"
+            BlueprintName = "ceshi"
+            ReferencedContainer = "container:ceshi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F16BA4F01CE9DA6A002B8D4A"
-            BuildableName = "lx7.app"
-            BlueprintName = "lx7"
-            ReferencedContainer = "container:lx7.xcodeproj">
+            BlueprintIdentifier = "F16BA4CD1CE9D7AC002B8D4A"
+            BuildableName = "ceshi.app"
+            BlueprintName = "ceshi"
+            ReferencedContainer = "container:ceshi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

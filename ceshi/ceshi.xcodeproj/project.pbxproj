@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F16BA5191CE9EA60002B8D4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F16BA5181CE9EA60002B8D4A /* main.m */; };
-		F16BA51C1CE9EA60002B8D4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F16BA51B1CE9EA60002B8D4A /* AppDelegate.m */; };
-		F16BA51F1CE9EA60002B8D4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16BA51E1CE9EA60002B8D4A /* ViewController.m */; };
-		F16BA5221CE9EA60002B8D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16BA5201CE9EA60002B8D4A /* Main.storyboard */; };
-		F16BA5241CE9EA60002B8D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16BA5231CE9EA60002B8D4A /* Assets.xcassets */; };
-		F16BA5271CE9EA60002B8D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16BA5251CE9EA60002B8D4A /* LaunchScreen.storyboard */; };
+		F16BA4D31CE9D7AC002B8D4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F16BA4D21CE9D7AC002B8D4A /* main.m */; };
+		F16BA4D61CE9D7AC002B8D4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F16BA4D51CE9D7AC002B8D4A /* AppDelegate.m */; };
+		F16BA4D91CE9D7AC002B8D4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16BA4D81CE9D7AC002B8D4A /* ViewController.m */; };
+		F16BA4DC1CE9D7AC002B8D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16BA4DA1CE9D7AC002B8D4A /* Main.storyboard */; };
+		F16BA4DE1CE9D7AC002B8D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16BA4DD1CE9D7AC002B8D4A /* Assets.xcassets */; };
+		F16BA4E11CE9D7AC002B8D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16BA4DF1CE9D7AC002B8D4A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F16BA5141CE9EA60002B8D4A /* lx8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lx8.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F16BA5181CE9EA60002B8D4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F16BA51A1CE9EA60002B8D4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F16BA51B1CE9EA60002B8D4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F16BA51D1CE9EA60002B8D4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F16BA51E1CE9EA60002B8D4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F16BA5211CE9EA60002B8D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F16BA5231CE9EA60002B8D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F16BA5261CE9EA60002B8D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F16BA5281CE9EA60002B8D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16BA4CE1CE9D7AC002B8D4A /* ceshi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceshi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16BA4D21CE9D7AC002B8D4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F16BA4D41CE9D7AC002B8D4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F16BA4D51CE9D7AC002B8D4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F16BA4D71CE9D7AC002B8D4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F16BA4D81CE9D7AC002B8D4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F16BA4DB1CE9D7AC002B8D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F16BA4DD1CE9D7AC002B8D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F16BA4E01CE9D7AC002B8D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F16BA4E21CE9D7AC002B8D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F16BA5111CE9EA60002B8D4A /* Frameworks */ = {
+		F16BA4CB1CE9D7AC002B8D4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,42 +39,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F16BA50B1CE9EA60002B8D4A = {
+		F16BA4C51CE9D7AC002B8D4A = {
 			isa = PBXGroup;
 			children = (
-				F16BA5161CE9EA60002B8D4A /* lx8 */,
-				F16BA5151CE9EA60002B8D4A /* Products */,
+				F16BA4D01CE9D7AC002B8D4A /* ceshi */,
+				F16BA4CF1CE9D7AC002B8D4A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F16BA5151CE9EA60002B8D4A /* Products */ = {
+		F16BA4CF1CE9D7AC002B8D4A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F16BA5141CE9EA60002B8D4A /* lx8.app */,
+				F16BA4CE1CE9D7AC002B8D4A /* ceshi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F16BA5161CE9EA60002B8D4A /* lx8 */ = {
+		F16BA4D01CE9D7AC002B8D4A /* ceshi */ = {
 			isa = PBXGroup;
 			children = (
-				F16BA51A1CE9EA60002B8D4A /* AppDelegate.h */,
-				F16BA51B1CE9EA60002B8D4A /* AppDelegate.m */,
-				F16BA51D1CE9EA60002B8D4A /* ViewController.h */,
-				F16BA51E1CE9EA60002B8D4A /* ViewController.m */,
-				F16BA5201CE9EA60002B8D4A /* Main.storyboard */,
-				F16BA5231CE9EA60002B8D4A /* Assets.xcassets */,
-				F16BA5251CE9EA60002B8D4A /* LaunchScreen.storyboard */,
-				F16BA5281CE9EA60002B8D4A /* Info.plist */,
-				F16BA5171CE9EA60002B8D4A /* Supporting Files */,
+				F16BA4D41CE9D7AC002B8D4A /* AppDelegate.h */,
+				F16BA4D51CE9D7AC002B8D4A /* AppDelegate.m */,
+				F16BA4D71CE9D7AC002B8D4A /* ViewController.h */,
+				F16BA4D81CE9D7AC002B8D4A /* ViewController.m */,
+				F16BA4DA1CE9D7AC002B8D4A /* Main.storyboard */,
+				F16BA4DD1CE9D7AC002B8D4A /* Assets.xcassets */,
+				F16BA4DF1CE9D7AC002B8D4A /* LaunchScreen.storyboard */,
+				F16BA4E21CE9D7AC002B8D4A /* Info.plist */,
+				F16BA4D11CE9D7AC002B8D4A /* Supporting Files */,
 			);
-			path = lx8;
+			path = ceshi;
 			sourceTree = "<group>";
 		};
-		F16BA5171CE9EA60002B8D4A /* Supporting Files */ = {
+		F16BA4D11CE9D7AC002B8D4A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F16BA5181CE9EA60002B8D4A /* main.m */,
+				F16BA4D21CE9D7AC002B8D4A /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -82,38 +82,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F16BA5131CE9EA60002B8D4A /* lx8 */ = {
+		F16BA4CD1CE9D7AC002B8D4A /* ceshi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F16BA52B1CE9EA60002B8D4A /* Build configuration list for PBXNativeTarget "lx8" */;
+			buildConfigurationList = F16BA4E51CE9D7AC002B8D4A /* Build configuration list for PBXNativeTarget "ceshi" */;
 			buildPhases = (
-				F16BA5101CE9EA60002B8D4A /* Sources */,
-				F16BA5111CE9EA60002B8D4A /* Frameworks */,
-				F16BA5121CE9EA60002B8D4A /* Resources */,
+				F16BA4CA1CE9D7AC002B8D4A /* Sources */,
+				F16BA4CB1CE9D7AC002B8D4A /* Frameworks */,
+				F16BA4CC1CE9D7AC002B8D4A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = lx8;
-			productName = lx8;
-			productReference = F16BA5141CE9EA60002B8D4A /* lx8.app */;
+			name = ceshi;
+			productName = ceshi;
+			productReference = F16BA4CE1CE9D7AC002B8D4A /* ceshi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F16BA50C1CE9EA60002B8D4A /* Project object */ = {
+		F16BA4C61CE9D7AC002B8D4A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = MuChen;
 				TargetAttributes = {
-					F16BA5131CE9EA60002B8D4A = {
+					F16BA4CD1CE9D7AC002B8D4A = {
 						CreatedOnToolsVersion = 7.0.1;
 					};
 				};
 			};
-			buildConfigurationList = F16BA50F1CE9EA60002B8D4A /* Build configuration list for PBXProject "lx8" */;
+			buildConfigurationList = F16BA4C91CE9D7AC002B8D4A /* Build configuration list for PBXProject "ceshi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -121,55 +121,55 @@
 				en,
 				Base,
 			);
-			mainGroup = F16BA50B1CE9EA60002B8D4A;
-			productRefGroup = F16BA5151CE9EA60002B8D4A /* Products */;
+			mainGroup = F16BA4C51CE9D7AC002B8D4A;
+			productRefGroup = F16BA4CF1CE9D7AC002B8D4A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F16BA5131CE9EA60002B8D4A /* lx8 */,
+				F16BA4CD1CE9D7AC002B8D4A /* ceshi */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F16BA5121CE9EA60002B8D4A /* Resources */ = {
+		F16BA4CC1CE9D7AC002B8D4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F16BA5271CE9EA60002B8D4A /* LaunchScreen.storyboard in Resources */,
-				F16BA5241CE9EA60002B8D4A /* Assets.xcassets in Resources */,
-				F16BA5221CE9EA60002B8D4A /* Main.storyboard in Resources */,
+				F16BA4E11CE9D7AC002B8D4A /* LaunchScreen.storyboard in Resources */,
+				F16BA4DE1CE9D7AC002B8D4A /* Assets.xcassets in Resources */,
+				F16BA4DC1CE9D7AC002B8D4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F16BA5101CE9EA60002B8D4A /* Sources */ = {
+		F16BA4CA1CE9D7AC002B8D4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F16BA51F1CE9EA60002B8D4A /* ViewController.m in Sources */,
-				F16BA51C1CE9EA60002B8D4A /* AppDelegate.m in Sources */,
-				F16BA5191CE9EA60002B8D4A /* main.m in Sources */,
+				F16BA4D91CE9D7AC002B8D4A /* ViewController.m in Sources */,
+				F16BA4D61CE9D7AC002B8D4A /* AppDelegate.m in Sources */,
+				F16BA4D31CE9D7AC002B8D4A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F16BA5201CE9EA60002B8D4A /* Main.storyboard */ = {
+		F16BA4DA1CE9D7AC002B8D4A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F16BA5211CE9EA60002B8D4A /* Base */,
+				F16BA4DB1CE9D7AC002B8D4A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F16BA5251CE9EA60002B8D4A /* LaunchScreen.storyboard */ = {
+		F16BA4DF1CE9D7AC002B8D4A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F16BA5261CE9EA60002B8D4A /* Base */,
+				F16BA4E01CE9D7AC002B8D4A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -177,7 +177,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F16BA5291CE9EA60002B8D4A /* Debug */ = {
+		F16BA4E31CE9D7AC002B8D4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		F16BA52A1CE9EA60002B8D4A /* Release */ = {
+		F16BA4E41CE9D7AC002B8D4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,24 +257,24 @@
 			};
 			name = Release;
 		};
-		F16BA52C1CE9EA60002B8D4A /* Debug */ = {
+		F16BA4E61CE9D7AC002B8D4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = lx8/Info.plist;
+				INFOPLIST_FILE = ceshi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MuChen.lx8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MuChen.ceshi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		F16BA52D1CE9EA60002B8D4A /* Release */ = {
+		F16BA4E71CE9D7AC002B8D4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = lx8/Info.plist;
+				INFOPLIST_FILE = ceshi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MuChen.lx8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MuChen.ceshi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -282,24 +282,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F16BA50F1CE9EA60002B8D4A /* Build configuration list for PBXProject "lx8" */ = {
+		F16BA4C91CE9D7AC002B8D4A /* Build configuration list for PBXProject "ceshi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F16BA5291CE9EA60002B8D4A /* Debug */,
-				F16BA52A1CE9EA60002B8D4A /* Release */,
+				F16BA4E31CE9D7AC002B8D4A /* Debug */,
+				F16BA4E41CE9D7AC002B8D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F16BA52B1CE9EA60002B8D4A /* Build configuration list for PBXNativeTarget "lx8" */ = {
+		F16BA4E51CE9D7AC002B8D4A /* Build configuration list for PBXNativeTarget "ceshi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F16BA52C1CE9EA60002B8D4A /* Debug */,
-				F16BA52D1CE9EA60002B8D4A /* Release */,
+				F16BA4E61CE9D7AC002B8D4A /* Debug */,
+				F16BA4E71CE9D7AC002B8D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F16BA50C1CE9EA60002B8D4A /* Project object */;
+	rootObject = F16BA4C61CE9D7AC002B8D4A /* Project object */;
 }

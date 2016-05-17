@@ -6,13 +6,13 @@
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "AE82541D5A9B676A579495F4C493AC81DB1E2401" : 0
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9ABF4661-F573-46C8-AC4B-29BC6597DCE5",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9D205D58-37ED-4F76-AD8B-03FE69D53E23",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "AE82541D5A9B676A579495F4C493AC81DB1E2401" : ""
   },
-  "DVTSourceControlWorkspaceBlueprintNameKey" : "L008UIDemo04",
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ceshi",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "L008UIDemo04\/L008UIDemo04.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ceshi\/ceshi.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Mu-Cheng\/IOS.git",

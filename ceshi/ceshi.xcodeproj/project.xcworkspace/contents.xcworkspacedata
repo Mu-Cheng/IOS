@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:lx7.xcodeproj">
+      location = "self:ceshi.xcodeproj">
    </FileRef>
 </Workspace>
