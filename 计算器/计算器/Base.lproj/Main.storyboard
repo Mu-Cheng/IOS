@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="RIk-xx-QQv">
-                                <rect key="frame" x="0.0" y="303" width="103" height="86"/>
+                                <rect key="frame" x="202" y="303" width="108" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.8797624941535136" green="0.94681855442399598" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="清屏">
@@ -29,7 +27,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="X9Z-LY-ZZ4">
-                                <rect key="frame" x="103" y="303" width="106" height="86"/>
+                                <rect key="frame" x="308" y="303" width="106" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="退格">
@@ -40,7 +38,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="jJ5-eC-3ea">
-                                <rect key="frame" x="208" y="303" width="103" height="86"/>
+                                <rect key="frame" x="0.0" y="475" width="103" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="/">
@@ -51,7 +49,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="ahj-4u-ICM">
-                                <rect key="frame" x="311" y="303" width="103" height="86"/>
+                                <rect key="frame" x="0.0" y="389" width="103" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="*">
@@ -62,7 +60,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="wX2-rB-ybW">
-                                <rect key="frame" x="0.0" y="389" width="103" height="86"/>
+                                <rect key="frame" x="103" y="389" width="103" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="7">
@@ -73,7 +71,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="E0W-aB-UKN">
-                                <rect key="frame" x="103" y="389" width="103" height="86"/>
+                                <rect key="frame" x="202" y="389" width="103" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="8">
@@ -84,7 +82,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Fk5-Hy-7aP">
-                                <rect key="frame" x="202" y="389" width="109" height="86"/>
+                                <rect key="frame" x="305" y="389" width="109" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="9">
@@ -95,7 +93,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="pVD-Xd-O0O">
-                                <rect key="frame" x="0.0" y="475" width="103" height="86"/>
+                                <rect key="frame" x="103" y="475" width="103" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="4">
@@ -106,7 +104,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="qT1-bE-UVW">
-                                <rect key="frame" x="103" y="475" width="103" height="86"/>
+                                <rect key="frame" x="202" y="475" width="103" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="5">
@@ -117,7 +115,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="krn-ES-ScX">
-                                <rect key="frame" x="311" y="475" width="103" height="86"/>
+                                <rect key="frame" x="0.0" y="303" width="103" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="+">
@@ -128,7 +126,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="wzK-rC-ZKS">
-                                <rect key="frame" x="0.0" y="560" width="103" height="91"/>
+                                <rect key="frame" x="103" y="560" width="103" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -140,7 +138,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="v5y-SU-ObJ">
-                                <rect key="frame" x="103" y="560" width="103" height="92"/>
+                                <rect key="frame" x="202" y="559" width="103" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="2">
@@ -151,7 +149,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="smx-zR-UbL">
-                                <rect key="frame" x="0.0" y="650" width="209" height="86"/>
+                                <rect key="frame" x="103" y="649" width="103" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="0">
@@ -162,26 +160,18 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="aQX-E9-kHg">
-                                <rect key="frame" x="208" y="650" width="103" height="86"/>
+                                <rect key="frame" x="202" y="649" width="103" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title=".">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="gky-7K-MIm">
-                                <rect key="frame" x="311" y="560" width="103" height="176"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.73470970736264252" blue="0.32221485982396547" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="=">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
                                 <connections>
-                                    <action selector="calculateBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Btm-4l-GY9"/>
+                                    <action selector="pointBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bRb-aV-hGn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="IHF-zD-8XQ">
-                                <rect key="frame" x="311" y="389" width="103" height="86"/>
+                                <rect key="frame" x="103" y="303" width="103" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="-">
@@ -192,7 +182,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="fVO-hI-nI8">
-                                <rect key="frame" x="202" y="475" width="109" height="86"/>
+                                <rect key="frame" x="305" y="475" width="109" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="6">
@@ -203,7 +193,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="output" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sP8-oI-grM">
-                                <rect key="frame" x="0.0" y="149" width="414" height="154"/>
+                                <rect key="frame" x="-2" y="148" width="414" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="58"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -217,7 +207,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="arh-5q-Qfh">
-                                <rect key="frame" x="202" y="560" width="109" height="91"/>
+                                <rect key="frame" x="305" y="558" width="109" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="3">
@@ -225,6 +215,39 @@
                                 </state>
                                 <connections>
                                     <action selector="input3BtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LYp-25-LaI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="ClZ-z0-pkE">
+                                <rect key="frame" x="0.0" y="561" width="103" height="87.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="(">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="leftBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="db8-a0-3aL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="CKb-lv-kGi">
+                                <rect key="frame" x="0.0" y="648" width="103" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.87976249419999997" green="0.94681855439999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title=")">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="rightBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qvB-dH-6ix"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="gky-7K-MIm">
+                                <rect key="frame" x="305" y="648" width="109" height="88.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.73470970736264252" blue="0.32221485982396547" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculateBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Btm-4l-GY9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -236,6 +259,7 @@
                         <outlet property="outputLabel" destination="sP8-oI-grM" id="flQ-NQ-5Kj"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="229" y="408"/>
         </scene>

@@ -14,6 +14,12 @@
 @property (weak, nonatomic) IBOutlet UILabel *inputLabel;
 
 
+- (IBAction)leftBtnClick:(id)sender;
+
+- (IBAction)rightBtnClick:(id)sender;
+
+- (IBAction)pointBtnClick:(id)sender;
+
 - (IBAction)calculateBtnClick:(id)sender;
 
 - (IBAction)cleanBtnClick:(id)sender;

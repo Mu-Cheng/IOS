@@ -13,5 +13,6 @@
 @property (strong,nonatomic) NSString *input;
 
 - (NSString*) calculate:(NSString*)input;
++ (int) getString:(NSString*)input;
 
 @end

@@ -29,6 +29,18 @@
 
 
 
+- (IBAction)leftBtnClick:(id)sender {
+    self.inputLabel.text = [self.inputLabel.text stringByAppendingString:@"("];
+}
+
+- (IBAction)rightBtnClick:(id)sender {
+    self.inputLabel.text = [self.inputLabel.text stringByAppendingString:@")"];
+}
+
+- (IBAction)pointBtnClick:(id)sender {
+    self.inputLabel.text = [self.inputLabel.text stringByAppendingString:@"."];
+}
+
 - (IBAction)calculateBtnClick:(id)sender {
     Calculate *run = [[Calculate alloc]init];
     run.input = self.inputLabel.text;

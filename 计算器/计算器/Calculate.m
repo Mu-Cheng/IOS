@@ -10,50 +10,177 @@
 
 @implementation Calculate
 
-- (NSString*) calculate:(NSString*)input{
-    double a = 0.0,b = 0.0;
++ (int) getString:(NSString*)input{
     int i;
-    char k = '\0';
+    int cnt = 0;
     for (i = 0; i<[input length]; i++) {
-        k = [input characterAtIndex:i];
-        if (k>='0'&&k<='9') {
-            a = a*10.0+k-'0';
-        }else
-            break;
+        char k = [input characterAtIndex:i];
+        if(('0'<=k&&k<='9')||k=='.'){
+            cnt++;
+        }else{
+            if(0==cnt){
+                cnt++;
+                break;
+            }else
+                break;
+        }
     }
-    char op = k;
-    
-    for (i++; i<[input length]; i++) {
-        k = [input characterAtIndex:i];
-        b = b*10.0+k-'0';
+    return cnt;
+}
+
+- (NSString*) calculate:(NSString*)input{
+    NSMutableArray *ans = [[NSMutableArray alloc]init];
+    NSMutableArray *st = [[NSMutableArray alloc]init];
+    while (![input isEqual:@""]) {
+        int k = [Calculate getString:input];
+        NSString *s1 = [input substringToIndex:k];
+        if ([s1 isEqual:@"+"]) {
+            if ([st count]==0) {
+                [st addObject:@"+"];
+            }else{
+                while([st count]!=0){
+                    NSString * op = [st objectAtIndex:[st count]-1];
+                    if ([op isEqual:@"("]) {
+                        break;
+                    }
+                    [ans addObject:op];
+                    [st removeObjectAtIndex:[st count]-1];
+                }
+                [st addObject:s1];
+            }
+        }else if([s1 isEqual:@"-"]) {
+            if ([st count]==0) {
+                [st addObject:@"-"];
+            }else{
+                while([st count]!=0){
+                    NSString * op = [st objectAtIndex:[st count]-1];
+                    if ([op isEqual:@"("]) {
+                        break;
+                    }
+                    [ans addObject:op];
+                    [st removeObjectAtIndex:[st count]-1];
+                }
+                [st addObject:s1];
+            }
+        }else if([s1 isEqual:@"*"]) {
+            if ([st count]==0) {
+                [st addObject:@"*"];
+            }else{
+                while([st count]!=0){
+                    NSString * op = [st objectAtIndex:[st count]-1];
+                    if ([op isEqual:@"+"]||[op isEqual:@"-"]) {
+                        break;
+                    }
+                    if ([op isEqual:@"("]) {
+                        break;
+                    }
+                    [ans addObject:op];
+                    [st removeObjectAtIndex:[st count]-1];
+                }
+                [st addObject:s1];
+            }
+        }else if([s1 isEqual:@"/"]) {
+            if ([st count]==0) {
+                [st addObject:@"/"];
+            }else{
+                while([st count]!=0){
+                    NSString * op = [st objectAtIndex:[st count]-1];
+                    if ([op isEqual:@"+"]||[op isEqual:@"-"]) {
+                        break;
+                    }
+                    if ([op isEqual:@"("]) {
+                        break;
+                    }
+                    [ans addObject:op];
+                    [st removeObjectAtIndex:[st count]-1];
+                }
+                [st addObject:s1];
+            }
+        }else if([s1 isEqual:@"("]){
+            [st addObject:s1];
+        }else if([s1 isEqual:@")"]){
+            while([st count]!=0){
+                NSString * op = [st objectAtIndex:[st count]-1];
+                if ([op isEqual:@"("]) {
+                    [st removeObjectAtIndex:[st count]-1];
+                    break;
+                }
+                [ans addObject:op];
+                [st removeObjectAtIndex:[st count]-1];
+            }
+        }else{
+            [ans addObject:s1];
+        }
+        input = [input substringFromIndex:k];
     }
-    double ans = 0.0;
-    NSNumber *Ans;
-    
-    switch (op) {
-        case '+':
-            ans = a+b;
-            break;
+    while([st count]!=0){
+        NSString * op = [st objectAtIndex:[st count]-1];
+        [ans addObject:op];
+        [st removeObjectAtIndex:[st count]-1];
+    }
+//    NSLog(@"%@",ans);
+    int i;
+    for (i = 0; i<[ans count]; i++) {
+        NSString *s = [ans objectAtIndex:i];
+        if ([s isEqual:@"+"]) {
+            NSString * op1 = [st objectAtIndex:[st count]-1];
+            [st removeObjectAtIndex:[st count]-1];
+            NSString * op2 = [st objectAtIndex:[st count]-1];
+            [st removeObjectAtIndex:[st count]-1];
+            double a = [op1 doubleValue];
+            double b = [op2 doubleValue];
+            double c = a+b;
+            NSNumber *result = [NSNumber numberWithDouble:c];
+            NSString *Result = [NSString stringWithFormat:@"%@",result];
+            [st addObject:Result];
+        }else if ([s isEqual:@"-"]) {
+            NSString * op1 = [st objectAtIndex:[st count]-1];
+            [st removeObjectAtIndex:[st count]-1];
+            NSString * op2 = [st objectAtIndex:[st count]-1];
+            [st removeObjectAtIndex:[st count]-1];
+            double a = [op1 doubleValue];
+            double b = [op2 doubleValue];
+            double c = b-a;
+            NSNumber *result = [NSNumber numberWithDouble:c];
+            NSString *Result = [NSString stringWithFormat:@"%@",result];
+            [st addObject:Result];
+        }else if ([s isEqual:@"*"]) {
+            NSString * op1 = [st objectAtIndex:[st count]-1];
+            [st removeObjectAtIndex:[st count]-1];
+            NSString * op2 = [st objectAtIndex:[st count]-1];
+            [st removeObjectAtIndex:[st count]-1];
+            double a = [op1 doubleValue];
+            double b = [op2 doubleValue];
+            double c = a*b;
+            NSNumber *result = [NSNumber numberWithDouble:c];
+            NSString *Result = [NSString stringWithFormat:@"%@",result];
+            [st addObject:Result];
+        }else if ([s isEqual:@"/"]) {
+            NSString * op1 = [st objectAtIndex:[st count]-1];
+            [st removeObjectAtIndex:[st count]-1];
+            NSString * op2 = [st objectAtIndex:[st count]-1];
+            [st removeObjectAtIndex:[st count]-1];
+            double a = [op1 doubleValue];
+            double b = [op2 doubleValue];
+            if (!a) {
+                return @"ERRER";
+            }
+            double c = b/a;
+            NSNumber *result = [NSNumber numberWithDouble:c];
+            NSString *Result = [NSString stringWithFormat:@"%@",result];
+            [st addObject:Result];
+        }else{
+            [st addObject:s];
+        }
         
-        case '-':
-            ans = a-b;
-            break;
-        
-        case '*':
-            ans = a*b;
-            break;
-        
-        case '/':
-            if(!b)return @"错误输入";
-            ans = a/b;
-            break;
+    }
+    NSString *output = @"";
+    if ([st count]) {
+        output = [st objectAtIndex:0];
+//        NSLog(@"1");
     }
     
-    Ans = [NSNumber numberWithDouble:ans];
-//    NSLog(@"%lf",ans);
-    NSString *output;
-    output = [NSString stringWithFormat:@"%@",Ans];
-    
+//    NSLog(@"%@",output);
     return output;
 }
 
