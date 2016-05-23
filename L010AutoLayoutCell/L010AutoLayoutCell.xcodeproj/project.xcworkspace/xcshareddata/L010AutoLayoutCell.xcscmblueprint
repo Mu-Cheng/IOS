@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AE82541D5A9B676A579495F4C493AC81DB1E2401",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AE82541D5A9B676A579495F4C493AC81DB1E2401" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "94E5C30C-CEBB-416B-B860-E1CC35C41F71",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AE82541D5A9B676A579495F4C493AC81DB1E2401" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "L010AutoLayoutCell",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "L010AutoLayoutCell\/L010AutoLayoutCell.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Mu-Cheng\/IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AE82541D5A9B676A579495F4C493AC81DB1E2401"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Mu-Cheng\/ACM.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AE82541D5A9B676A579495F4C493AC81DB1E2401"
+    }
+  ]
+}
