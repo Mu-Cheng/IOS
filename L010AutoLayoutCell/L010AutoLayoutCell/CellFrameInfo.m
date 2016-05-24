@@ -8,11 +8,12 @@
 
 #import "CellFrameInfo.h"
 
-#define kSubViewLeadingMargin  10
-#define kSubViewTrailingMargin 10
-#define kSubViewTopMargin      10
-#define kAvaterImageViewWidth  70
+#define kSubViewLeadingMargin  10 //左边距Leading
+#define kSubViewTrailingMargin 10 //右边距
+#define kSubViewTopMargin      10 //距顶高度
+#define kAvaterImageViewWidth  50 //图像宽高
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
+
 
 @implementation CellFrameInfo
 

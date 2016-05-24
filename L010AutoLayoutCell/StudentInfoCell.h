@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Student.h"
+#import "CellFrameInfo.h"
 
 @interface StudentInfoCell : UITableViewCell
+
+- (void) setCellData:(Student *)student frameInfo:(CellFrameInfo *)frameInfo;
 
 @end

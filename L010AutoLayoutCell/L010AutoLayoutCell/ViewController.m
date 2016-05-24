@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 #import "Student.h"
+#import "StudentInfoCell.h"
+#import "CellFrameInfo.h"
+
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -26,14 +29,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self loadDataFromWeb];
-    
+//    定义尺寸 左上角，长，高
     self.view.backgroundColor = [UIColor orangeColor];
     CGRect tableViewFrame = CGRectMake(0, 64, self.view.bounds.size.width, self.view.bounds.size.height-64);
     
     self.mainTableView = [[UITableView alloc]initWithFrame:tableViewFrame style:UITableViewStylePlain];
-    self.mainTableView.backgroundColor = [UIColor grayColor];
+    self.mainTableView.backgroundColor = [UIColor whiteColor];
     self.mainTableView.delegate = self;
     self.mainTableView.dataSource = self;
+    self.mainTableView.tableFooterView = [[UIView alloc]init];
     [self.view addSubview:self.mainTableView];
     
 
@@ -48,15 +52,30 @@
 
 //控制行数
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 0;
+    
+    
+    return self.dataArr.count;
 }
 //控制每一行样式
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath{
-    return nil;
+    NSLog(@"path");
+    static NSString *cellIdentifier = @"StudentInfoCell";
+    StudentInfoCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    if (cell == nil) {
+        cell = [[NSBundle mainBundle] loadNibNamed:@"StudentInfoCell" owner:nil options:nil].lastObject;
+        Student *currentStudent =self.dataArr[indexPath.row];
+        CellFrameInfo *currentFrameInfo = [[CellFrameInfo alloc]initWithStudent:currentStudent];
+        [cell setCellData:currentStudent frameInfo:currentFrameInfo];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    }
+    return cell;
 }
 //行高
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 0;
+    Student *currentStudent =self.dataArr[indexPath.row];
+    CellFrameInfo *currentFrameInfo = [[CellFrameInfo alloc]initWithStudent:currentStudent];
+    
+    return currentFrameInfo.cellHeight;
 }
 //点击事件
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{

@@ -69,21 +69,11 @@
 		F169C2661CF2EF3000D1BDA1 /* L010AutoLayoutCell */ = {
 			isa = PBXGroup;
 			children = (
-				F169C26A1CF2EF3000D1BDA1 /* AppDelegate.h */,
-				F169C26B1CF2EF3000D1BDA1 /* AppDelegate.m */,
-				F169C26D1CF2EF3000D1BDA1 /* ViewController.h */,
-				F169C26E1CF2EF3000D1BDA1 /* ViewController.m */,
-				F169C2811CF2F58E00D1BDA1 /* Student.h */,
-				F169C2821CF2F58E00D1BDA1 /* Student.m */,
-				F169C28E1CF2FCA500D1BDA1 /* CellFrameInfo.h */,
-				F169C28F1CF2FCA500D1BDA1 /* CellFrameInfo.m */,
-				F169C2891CF2FAC900D1BDA1 /* StudentInfoCell.h */,
-				F169C28A1CF2FAC900D1BDA1 /* StudentInfoCell.m */,
-				F169C28B1CF2FAC900D1BDA1 /* StudentInfoCell.xib */,
-				F169C2701CF2EF3000D1BDA1 /* Main.storyboard */,
+				F1B7BB261CF444A80049EEF7 /* Controller */,
+				F1B7BB251CF444A10049EEF7 /* View */,
+				F1B7BB241CF444950049EEF7 /* Model */,
+				F1B7BB231CF444760049EEF7 /* Other */,
 				F169C2731CF2EF3000D1BDA1 /* Assets.xcassets */,
-				F169C2751CF2EF3000D1BDA1 /* LaunchScreen.storyboard */,
-				F169C2781CF2EF3000D1BDA1 /* Info.plist */,
 				F169C2671CF2EF3000D1BDA1 /* Supporting Files */,
 			);
 			path = L010AutoLayoutCell;
@@ -95,6 +85,48 @@
 				F169C2681CF2EF3000D1BDA1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1B7BB231CF444760049EEF7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F169C2751CF2EF3000D1BDA1 /* LaunchScreen.storyboard */,
+				F169C2781CF2EF3000D1BDA1 /* Info.plist */,
+				F169C26A1CF2EF3000D1BDA1 /* AppDelegate.h */,
+				F169C26B1CF2EF3000D1BDA1 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		F1B7BB241CF444950049EEF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F169C2811CF2F58E00D1BDA1 /* Student.h */,
+				F169C2821CF2F58E00D1BDA1 /* Student.m */,
+				F169C28E1CF2FCA500D1BDA1 /* CellFrameInfo.h */,
+				F169C28F1CF2FCA500D1BDA1 /* CellFrameInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F1B7BB251CF444A10049EEF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F169C2891CF2FAC900D1BDA1 /* StudentInfoCell.h */,
+				F169C28A1CF2FAC900D1BDA1 /* StudentInfoCell.m */,
+				F169C28B1CF2FAC900D1BDA1 /* StudentInfoCell.xib */,
+				F169C2701CF2EF3000D1BDA1 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F1B7BB261CF444A80049EEF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F169C26D1CF2EF3000D1BDA1 /* ViewController.h */,
+				F169C26E1CF2EF3000D1BDA1 /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +352,7 @@
 				F169C27D1CF2EF3000D1BDA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
